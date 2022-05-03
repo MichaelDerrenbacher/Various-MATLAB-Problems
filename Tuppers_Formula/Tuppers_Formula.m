@@ -1,6 +1,10 @@
 clc
 clear
 
+% https://en.wikipedia.org/wiki/Tupper%27s_self-referential_formula
+% displays the bitmap for the variable 'k', which encodes a representation of the formula used to generate said bitmap
+% changing k will change what is displayed
+
 
 % need to use symbolic variable to hold a number so large
 k =  sym(['960939379918958884971672962127852754715004339660129306651505519271702802395266424689642842174350' ...
