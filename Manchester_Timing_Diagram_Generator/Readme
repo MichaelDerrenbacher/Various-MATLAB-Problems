@@ -1,0 +1,21 @@
+Only timing_diagram_top_level needs to be run, rest of files are functions or example outputs.
+
+Can run top section for just the data and four-phase clock timing, or can run bottom section for bitwise logic of different signals.
+Can add more signals to the signal arrays to plot even more diagrams.
+
+
+
+  data = [1,0,1,1,1,0,0]; <-- NRZ data to convert to Manchester Data
+  
+  data_freq = 1;  <-- Data frequency (can just leave at one)
+  clock_freq = 1; <-- Clock frequency (change to affect timing)
+  
+  clock_phase_adjust = 0; <-- Clock starting phase
+  
+  
+
+Example_1: PRBS3 Data pattern, 1:1 data/clock freq, 0 deg clock offset
+Example_2: PRBS3 Data pattern, 1:1 data/clock freq, 45 deg clock offset
+Example_3: PRBS3 Data pattern, 1:1 data/clock freq, 0 deg clock offset, shows additional signals
+Example_4: PRBS3 Data pattern, 1:1.1 data/clock freq, 0 deg clock offset, shows additional signals
+Example_5: PRBS3 Data pattern, 1:0.9 data/clock freq, 0 deg clock offset, shows additional signals
